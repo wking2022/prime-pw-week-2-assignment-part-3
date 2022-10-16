@@ -5,19 +5,33 @@ console.log('****** Part Supply *******');
 //    & console.log the variable
 console.log('1. Number of partsNeeded:');
 
+let partsNeeded = 40
+console.log( 'partsNeeded = 40');
+
 // 2. Create a variable call 'supplyChanges' set it to an array containing
 //    the following numbers: 3, 5, -6, 0, 7, 11
 console.log('2. Array of supplyChanges:');
 
+let supplyChanges = ['3', '5', '-6', '0', '7', '11'];
+console.log(supplyChanges);
+
 // 3. Console log the value of the second item in the 'supplyChanges' array
-console.log('3. Second supplyChange is:');
+console.log('3. Second item in supplyChange is shown below:');
+
+console.log( '#', supplyChanges[1]);
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
 
+supplyChanges.pop();
+console.log(supplyChanges);
+
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Adding 25 to supplyChanges.');
+
+supplyChanges.push('25');
+console.log(supplyChanges);
 
 // 6. Write a `for` loop that shows each value in the 'supplyChanges' array
 //    Use a console.log formatted as follows, where x is the value from the array
@@ -26,6 +40,13 @@ console.log('5. Adding 25 to supplyChanges.');
 //    - if the value is negative, format the log as 'Removed x parts.' 
 console.log('6. Showing supplyChanges...');
 
+
+// for (let x=0; x<1; x++)
+// {
+//     console.log(supplyChanges);
+//     if(x=0);
+
+// }
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
