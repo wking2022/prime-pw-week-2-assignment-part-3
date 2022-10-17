@@ -41,12 +41,21 @@ console.log(supplyChanges);
 console.log('6. Showing supplyChanges...');
 
 
-// for (let x=0; x<1; x++)
-// {
-//     console.log(supplyChanges);
-//     if(x=0);
+for (let x=0; x<supplyChanges.length; x++)
+{
+    console.log(supplyChanges[x])
+    if (supplyChanges[x]>0){
+        console.log('Added x parts')
+    }
+    if (supplyChanges[x]==0){
+        console.log('No change')
+    }
+    if (supplyChanges[x]<0){
+        console.log('Removed x parts')
+    }
+}
 
-// }
+// console.log( 'Added x parts')
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
